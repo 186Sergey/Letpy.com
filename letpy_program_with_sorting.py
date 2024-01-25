@@ -24,3 +24,16 @@ for i in word:
         numbers.sort()
 
 print(numbers)
+
+# ещё один способ сортировки и проверки
+
+string = input("Напишите что-нибудь: ")
+
+numbers = []
+
+word = string.split()
+
+numbers = [int(i) for i in word if i.isdigit()]
+numbers.sort()
+
+print(numbers)
