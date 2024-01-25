@@ -20,8 +20,7 @@ numbers = []
 word = string.split()
 for i in word:
     if i.isdigit():
-        int(i)
-        numbers.append(i)
+        numbers.append(int(i))
+        numbers.sort()
 
-numbers.sort()
 print(numbers)
